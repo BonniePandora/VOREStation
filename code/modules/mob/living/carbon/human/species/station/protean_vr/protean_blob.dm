@@ -35,7 +35,7 @@
 	max_n2 = 0
 	minbodytemp = 0
 	maxbodytemp = 900
-	movement_cooldown = 1
+	movement_cooldown = -1 // Setting the blob to be slower than base running speed means the little blurb when blobbing is false. And also a death-sentence if caused in combat, be it willfully entered or not.
 
 	var/mob/living/carbon/human/humanform
 	var/obj/item/organ/internal/nano/refactory/refactory
