@@ -8,7 +8,7 @@
 	unity = TRUE
 	water_resist = 100 // Lets not kill the prommies
 	cores = 0
-	movement_cooldown = 0	// Why on earth this was set to be SLOWER than the base run-speed when they were equal before is beyond me
+	movement_cooldown = 0	// No clear documentation on what value corresponds with base human move-speed, judging this value from the '1 is slower than human' remark in the simple_mob.dm file
 	//appearance_flags = RADIATION_GLOWS
 	shock_resist = 0 // Lets not be immune to zaps.
 	friendly = list("nuzzles", "glomps", "snuggles", "cuddles", "squishes") // lets be cute :3
